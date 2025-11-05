@@ -1,0 +1,6 @@
+torch
+opencv-python
+pandas
+scikit-learn
+# albumentations intentionally missing
+# skimage intentionally missing
