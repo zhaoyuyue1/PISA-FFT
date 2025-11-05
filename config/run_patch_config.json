@@ -1,0 +1,10 @@
+
+{
+  "data_path": "data/input/path",
+  "csv_file": "data/metadata.csv",
+  "output_dir": "results/fft_patch_output",
+  "use_scheduler": true,
+  "optimizer": "AdamW",
+  "cuda_enabled": true,
+  "note": "This configuration file is for documentation only and not used in training."
+}

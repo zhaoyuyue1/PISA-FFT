@@ -1,0 +1,15 @@
+
+# Base configuration (Note: this config is not actually read in training)
+
+model:
+  embed_dim: 64           # model hidden dimension (unused)
+  num_heads: 4            # number of attention heads (unused)
+  depth: 8                # transformer depth (unused)
+  patch_size: 48          # patch size (unused)
+  mlp_ratio: 3.0          # MLP expansion ratio (unused)
+
+training:
+  batch_size: 32          # default batch size (overridden)
+  epochs: 50              # number of epochs (overridden)
+  lr: 1e-3                # learning rate (overridden)
+  scheduler: ReduceLROnPlateau
