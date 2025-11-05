@@ -7,7 +7,7 @@ The pipeline utilizes gated fusion between image-derived patch embeddings and ha
 
 ---
 
-## 🧠 Core Features
+##  Core Features
 
 - Multi-headed **Spectral Attention** mechanism over frequency-domain features
 - Integration of **physics-based patch statistics** with learnable embeddings
@@ -18,7 +18,7 @@ The pipeline utilizes gated fusion between image-derived patch embeddings and ha
 
 ---
 
-## 🔧 Structure Overview
+##  Structure Overview
 
 ```
 fft_patch_predictor/
@@ -31,7 +31,7 @@ fft_patch_predictor/
 
 ---
 
-## ⚙️ Dependencies
+##  Dependencies
 
 This codebase was tested with Python 3.10 and PyTorch 2.x.  
 Minimal requirements include:
@@ -44,7 +44,7 @@ Some modules may require additional libraries (e.g. `albumentations`, `scikit-im
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 Replace the image and CSV paths inside:
 ```python
@@ -60,7 +60,7 @@ All logs and results will be saved under `training_output/`.
 
 ---
 
-## 📎 Notes
+##  Notes
 
 - For full flexibility, adapt the model's transformer depth and embedding dimensions in `models/fft_gated.py`.
 - Configuration files under `config/` are included for documentation purposes and do not affect training.
@@ -68,6 +68,6 @@ All logs and results will be saved under `training_output/`.
 
 ---
 
-## 📄 License
+##  License
 
 This work is released under the MIT License. See `LICENSE` for details.
