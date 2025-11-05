@@ -1,5 +1,5 @@
 
-# FFT Patch Predictor
+# PISA-FFT
 
 This repository provides a modular implementation of a hybrid physics-informed vision model for predicting permeability from porous media microstructure images.
 
