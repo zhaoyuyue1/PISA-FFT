@@ -27,7 +27,6 @@ fft_patch_predictor/
 ├── trainers/         # Training, evaluation, and logging utilities
 ├── scripts/          # Execution pipelines
 ├── config/           # Optional configuration templates
-├── training_output/  # Output logs and model weights
 ```
 
 ---
